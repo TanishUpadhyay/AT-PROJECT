@@ -7,6 +7,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.nav-title {
+  color: white;
+}
+.nav-link {
+  color: white;
+}
 .site-container {
   min-height: 100vh;
 }
