@@ -40,26 +40,31 @@
 9. Add bootstrap UI framework
    1. npm install react-bootstrap bootstrap
    2. update app.js
-10. Create Product and Rating Component
-11. create Product Component
-12. create Rating Component
-13. Use rating in product
+10. Create Product and Rating Component.
 
-new 11. Create Product Details Screen
+    1. create Product Component
+    2. create Rating Component
+    3. Use rating in product
 
-1.  fetch product from backend
-2.  create 3 column for image,info and action
+11. Create Product Details Screen
 
-new 12. Create Loading and Message Component
+    1. fetch product from backend
+    2. create 3 column for image,info and action
 
-1. create Loading Component
-2. use spinner component
-3. create message component
-4. create utils.js to define geterror function
+12. Create Loading and Message Component
 
-new 13. Implement add to cart
+    1. create Loading Component
+    2. use spinner component
+    3. create message component
+    4. create utils.js to define geterror function
 
-1. Create react context
-2. define reducer
-3. create store provider
-4. implement add to cart button click handler
+13. Implement add to cart
+
+    1. Create react context
+    2. define reducer
+    3. create store provider
+    4. implement add to cart button click handler
+
+14. Complete Add To Cart
+    1. check exist item in the cart
+    2. check count in stock in backend
