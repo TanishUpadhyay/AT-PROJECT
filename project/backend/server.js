@@ -8,7 +8,9 @@ import userRouter from './routes/userRoutes.js';
 dotenv.config();
 
 mongoose
-  .connect(process.env.MONGODB_URI)
+  .connect(
+    'mongodb+srv://amazon:amazon@cluster0.xkvzxyz.mongodb.net/amazon?retryWrites=true&w=majority'
+  )
   .then(() => {
     console.log('connected to db');
   })
