@@ -22,6 +22,13 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+app.get('/api/keys/paypal', (req, res) => {
+  res.send(
+    'AYmkw8CMHvnRbwrFf5fYDveQSbawXs4TpVIvTi9jeeFwm8ttaHqfg0Lcyyk8IKIGa688z8CHSfCrc4KB' ||
+      'sb'
+  );
+});
+
 app.use('/api/seed', seedRouter);
 app.use('/api/products', productRouter);
 app.use('/api/users', userRouter);
